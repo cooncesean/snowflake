@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react'
-import { trackIds, tracks, categoryColorScale } from '../constants'
+import { categories, trackIds, tracks, categoryColorScale } from '../constants'
 import type { MilestoneMap, TrackId } from '../constants'
 
 type Props = {
@@ -11,6 +11,7 @@ type Props = {
 }
 
 class TrackSelector extends React.Component<Props> {
+
   render() {
     return (
       <table>
@@ -39,6 +40,13 @@ class TrackSelector extends React.Component<Props> {
           }
         `}</style>
         <tbody>
+          <tr>
+          {categories.map(obj => (
+            <td colspan={obj.count} align="center">
+              {obj.name}
+            </td>
+          ))}
+          </tr>
           <tr>
             {trackIds.map(trackId => (
               <td key={trackId} className="track-selector-label" onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
