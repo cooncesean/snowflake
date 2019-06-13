@@ -212,7 +212,7 @@ export const tracks: Tracks = {
       "summary": "Has shipped a feature using this technology.",
       "signals": [
         "Knows the basics of UTXO transaction creation and validation.",
-        "Clearly understands our indexing architecture and can educate others.",
+        // "Clearly understands our indexing architecture and can educate others.",
         "Is versant in the basics of blockchain terminology.",
       ],
       "examples": [
@@ -226,16 +226,17 @@ export const tracks: Tracks = {
         "Has contributed as a part of a team to support a hard fork.",
         "Has contributed as a part of a team to implement a new coin.",
         "Triages indexer service issues correctly and independently.",
+        "Maintains a coin and stays connected to their developer community.",
       ],
       "examples": [
         "Designed 'tainting' framework to support the BCH/BSV hard fork.",
-        "Managed the upgrade from Dash v1.0 to v2.1."
+        "Managed the upgrade from Dash v1.0 to v2.1.",
       ],
     }, {
       "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
       "signals": [
         "Acts as core maintainer for our Indexer/IMS codebases.",
-        "Owns the maintenance of a coin and stays connected to their developer community.",
+        "Manages a team working towards the development and launch of a new coin..",
       ],
       "examples": [
         "Implemented a new coin from scratch.",
@@ -271,14 +272,14 @@ export const tracks: Tracks = {
     "category": "Tech Stack",
     "description": "Develops expertise in infrastructure engineering, using technologies such as Docker and Kubernetes.",
     "milestones": [{
-      "summary": "Has shipped a feature using this technology.",
+      "summary": "Have they ever deployed anything into our K8s infrastructure.",
       "signals": [
         "Has contributed as a part of a team to a small set of features.",
       ],
       "examples": [
       ],
     }, {
-      "summary": "Works with guidance.",
+      "summary": "The go-to person within a team to produce charts, but may still ask for guidance when developing.",
       "signals": [
         "Assesses correctness and utility of existing code and avoids blind copy-pasting",
         "Generalizes code when appropriate",
@@ -286,7 +287,7 @@ export const tracks: Tracks = {
       "examples": [
       ],
     }, {
-      "summary": "Contributes without oversight.",
+      "summary": "Owning infrastructure for your dev team. Independently develops infrastructure changes as needed.",
       "signals": [
         "Acts as primary maintainer for existing critical systems.",
         "Writes playbooks for new service maintenance.",
@@ -294,15 +295,15 @@ export const tracks: Tracks = {
       "examples": [
       ],
     }, {
-      "summary": "Internal authority in this domain.",
+      "summary": "Consistently pushes the bar in terms of re-architecting the infrastructure to move the team forward.",
       "signals": [
-        "Makes appropriate buy vs build choices.",
+        "Proactively seeks to improve our infrastructure for the betterment of everyone else on the team.",
       ],
       "examples": [
-        "Designed custom domains architecture.",
+        ".",
       ],
     }, {
-      "summary": "Is an industry-leading expert in infrastructure engineering or sets strategic infra direction for the Eng Org.",
+      "summary": "Regonized as the internal authority regarding infra; Actively particpates in the infra developer community.",
       "signals": [
         "Makes decisions that have positive, long term, wide ranging consequences.",
         "Identifies and solves systemic problems with current architecture.",
@@ -317,7 +318,15 @@ export const tracks: Tracks = {
     "category": "Tech Stack",
     "description": "Develops expertise in databases performance and data architecture, using technologies such as Mongo and Postgres.",
     "milestones": [{
-      "summary": "Has shipped a feature using this technology.",
+      "summary": "Works with oversight to implement schema changes.",
+      "signals": [
+        "Able to make smaller schema changes with guidance from others."
+      ],
+      "examples": [
+
+      ],
+    }, {
+      "summary": "Capable with guidance and review to implement schema for a small project.",
       "signals": [
 
       ],
@@ -325,31 +334,29 @@ export const tracks: Tracks = {
 
       ],
     }, {
-      "summary": "Works with guidance.",
+      "summary": "The go-to person on a team to shepard schema definitions for the entire team.",
       "signals": [
-
+        "Able describe + design several models ",
+        "Entity diagrams",
+        "Is sought to review ERDs + entity relationship diagrams.",
+        "Able to design performant models that scale gracefully."
       ],
       "examples": [
-
+        "Produced the ERD describing all entities and relationships for the DAS."
       ],
     }, {
-      "summary": "Contributes without oversight.",
+      "summary": "The human(s) in charge of managing our databases + performance.",
       "signals": [
-
+        "Able to conduct db backups + restores",
+        "Able to resolve borked schema migrations across environments.",
+        "Able to debug unperformant queries.",
+        "DB scalability design",
       ],
       "examples": [
-
-      ],
+        "Actively monitors DB performance.",
+      ]
     }, {
-      "summary": "Internal authority in this domain.",
-      "signals": [
-
-      ],
-      "examples": [
-
-      ],
-    }, {
-      "summary": "Recognized externally (in the community) as a domain expert.",
+      "summary": "The person you hire to come in and solve FB scale database performance.",
       "signals": [
 
       ],
@@ -696,10 +703,10 @@ export const tracks: Tracks = {
     "category": "Open Communication",
     "description": "Promotes BitGo to the outside world and establishes it as an attractive and thoughtful place to work",
     "milestones": [{
-      "summary": "Represents Medium well externally, and influences individuals positively",
+      "summary": "Represents BitGo well externally, and influences individuals positively",
       "signals": [
         "Shares personal and organizational successes with their network",
-        "Attends Medium-hosted events and talks with guests",
+        "Attends BitGo hosted events and talks with guests",
         "Communicates genuine and honest excitement about their work externally",
       ],
       "examples": [
