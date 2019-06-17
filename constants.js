@@ -777,25 +777,27 @@ export const tracks: Tracks = {
         "",
       ],
     }, {
-      "summary": "Proactively organizes BitGo related events and team building exercises.",
+      "summary": "Proactively facilitates/leads BitGo related events and team building exercises.",
       "signals": [
-        "",
+        "Consistently facilitates retrospectives and team events",
+        "Consistently organizes and facilitates guild meetings.",
+        "Reinforces and upholds values within your respective teams",
       ],
       "examples": [
         "",
       ],
     }, {
-      "summary": "",
+      "summary": "Facilitates company wide cultural events",
       "signals": [
-        "",
+        "Started and facilitates 'game night' for the org.",
       ],
       "examples": [
         "",
       ],
     }, {
-      "summary": "",
+      "summary": "Actively seeks to rethink/improve our culture + values",
       "signals": [
-        "",
+        "Answers big questions and facilitates their result down through the org.",
       ],
       "examples": [
         "",
