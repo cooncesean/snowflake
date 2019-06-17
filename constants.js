@@ -235,8 +235,8 @@ export const tracks: Tracks = {
     }, {
       "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
       "signals": [
-        "Acts as core maintainer for our Indexer/IMS codebases.",
-        "Manages a team working towards the development and launch of a new coin..",
+        "Acts as core maintainer for our Indexer/IMS/SDK codebases.",
+        "Manages a team working towards the development and launch of a new coin.",
       ],
       "examples": [
         "Implemented a new coin from scratch.",
@@ -769,7 +769,7 @@ export const tracks: Tracks = {
     "category": "Open Communication",
     "description": "Reinforce BitGo's values internally. Models behavior they want to see from others.",
     "milestones": [{
-      "summary": "",
+      "summary": "Actively attends BitGo related events and team building opporutnities.",
       "signals": [
         "",
       ],
@@ -777,7 +777,7 @@ export const tracks: Tracks = {
         "",
       ],
     }, {
-      "summary": "",
+      "summary": "Proactively organizes BitGo related events and team building exercises.",
       "signals": [
         "",
       ],
